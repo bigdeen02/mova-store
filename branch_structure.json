@@ -1,0 +1,33 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "ci/workflow-dispatch",
+    "fix/619-derive-cart-total",
+    "fix/dead-amount-binding",
+    "fix/main-test-suite-mechanical",
+    "fix/rustfmt-checkout-test-assert",
+    "main",
+    "origin",
+    "perf/cart-derived-total"
+  ],
+  "parent": {
+    "ci/workflow-dispatch": "main",
+    "fix/619-derive-cart-total": "main",
+    "fix/dead-amount-binding": "main",
+    "fix/main-test-suite-mechanical": "main",
+    "fix/rustfmt-checkout-test-assert": "main",
+    "main": null,
+    "origin": "main",
+    "perf/cart-derived-total": "main"
+  },
+  "order": [
+    "main",
+    "ci/workflow-dispatch",
+    "fix/619-derive-cart-total",
+    "fix/dead-amount-binding",
+    "fix/main-test-suite-mechanical",
+    "fix/rustfmt-checkout-test-assert",
+    "origin",
+    "perf/cart-derived-total"
+  ]
+}
